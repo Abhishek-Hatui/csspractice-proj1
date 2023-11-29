@@ -2,11 +2,22 @@
 $primary-color: #55c57a;
 $primary-color-light: #7ed56f;
 $primary-color-dark: #28b485;
+
+$secondary-color-light: #ffb900;
+$secondary-color-dark: #ff7730;
+
+$tertiary-color-light: #2998ff;
+$tertiary-color-dark: #5643fa;
+
 $dark-grey-color: #777;
 $light-grey-color: #eee;
 $light-grey-color1: #f7f7f7;
+
 $white-color: #fff;
 $black-color: #000;
+
+//shadows
+$shadow1: 0 1.5rem 4rem rgba($black-color, .15);
 
 //Font
 $default-font-size: 1.6rem;
