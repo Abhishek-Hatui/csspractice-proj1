@@ -16,24 +16,38 @@
     <title>Natours | Exciting tours for adventurous people</title>
   </head>
   <body>
-
     <div class="navigation">
-      <input type="checkbox" class="navigation__checkbox" id="nav-toggle">
+      <input type="checkbox" class="navigation__checkbox" id="nav-toggle" />
 
-      <label for="nav-toggle" class="navigation__button"><span class="navigation__icon">&nbsp;</span></label>
+      <label for="nav-toggle" class="navigation__button"
+        ><span class="navigation__icon">&nbsp;</span></label
+      >
 
       <div class="navigation__background">&nbsp;</div>
 
       <nav class="navigation__nav">
         <ul class="navigation__list">
-          <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>About us</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your benefits</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Popular tours</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>stories</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>book now</a></li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>01</span>About us</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"
+              ><span>02</span>Your benefits</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"
+              ><span>03</span>Popular tours</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>04</span>stories</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>05</span>book now</a>
+          </li>
         </ul>
       </nav>
-
     </div>
 
     <header class="header">
@@ -46,7 +60,7 @@
           <span class="primary-title--main">Outdoors</span>
           <span class="primary-title--sub">is where it's popin</span>
         </h1>
-        <a href="#" class="btn btn--white btn--animation">Explore</a>
+        <a href="#section-tours" class="btn btn--white btn--animation">Explore</a>
       </div>
     </header>
 
@@ -149,7 +163,7 @@
         </div>
       </section>
 
-      <section class="section-tours">
+      <section class="section-tours" id="section-tours">
         <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">Explore the tours</h2>
         </div>
@@ -180,7 +194,7 @@
                     <p class="card__price-only">only</p>
                     <p class="card__price-value">$299</p>
                   </div>
-                  <a href="#" class="btn btn--white">book now!</a>
+                  <a href="#popup" class="btn btn--white">book now!</a>
                 </div>
               </div>
             </div>
@@ -211,7 +225,7 @@
                     <p class="card__price-only">only</p>
                     <p class="card__price-value">$499</p>
                   </div>
-                  <a href="#" class="btn btn--white">book now!</a>
+                  <a href="#popup" class="btn btn--white">book now!</a>
                 </div>
               </div>
             </div>
@@ -242,7 +256,7 @@
                     <p class="card__price-only">only</p>
                     <p class="card__price-value">$899</p>
                   </div>
-                  <a href="#" class="btn btn--white">book now!</a>
+                  <a href="#popup" class="btn btn--white">book now!</a>
                 </div>
               </div>
             </div>
@@ -383,7 +397,6 @@
                 <div class="form__group">
                   <button class="btn btn--green">next step &rarr;</button>
                 </div>
-
               </form>
             </div>
           </div>
@@ -393,29 +406,69 @@
 
     <footer class="footer">
       <div class="footer__logo-box">
-        <img src="img/logo-green-2x.png" alt="Our logo" class="footer__logo">
+        <img src="img/logo-green-2x.png" alt="Our logo" class="footer__logo" />
       </div>
 
       <div class="row">
         <div class="col-1-of-2">
           <div class="footer__navigation">
             <ul class="footer__list">
-              <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
-              <li class="footer__item"><a href="#" class="footer__link">Contact us</a></li>
-              <li class="footer__item"><a href="#" class="footer__link">Careers</a></li>
-              <li class="footer__item"><a href="#" class="footer__link">Privacy Policy</a></li>
-              <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Company</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Contact us</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Careers</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Privacy Policy</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Terms</a>
+              </li>
             </ul>
           </div>
         </div>
         <div class="col-1-of-2">
           <p class="footer__copyright">
-            Built by <a href="#" class="footer__link">Abhishek Hatui</a>. Copyright &copy; by duks.
+            Built by <a href="#" class="footer__link">Abhishek Hatui</a>.
+            Copyright &copy; by duks.
           </p>
         </div>
       </div>
-
     </footer>
+
+    <div class="popup" id="popup">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="img/nat-8.jpg" alt="tour img" class="popup__img" />
+          <img src="img/nat-9.jpg" alt="tour img" class="popup__img" />
+        </div>
+        <div class="popup__right">
+          <a href="#section-tours" class="popup__close">&times;</a>
+          <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            Tour details &ndash; very good description
+          </h3>
+          <p class="popup__text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            suscipit quae accusantium quas, debitis dignissimos nam quidem?
+            Quibusdam, placeat dicta recusandae nihil modi cumque praesentium
+            dolorem error! Repudiandae, eius quibusdam! Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Atque eos quaerat natus in
+            accusamus officiis perferendis libero, autem, fuga, nulla omnis
+            magni eaque nesciunt iste facilis commodi voluptatem dolore
+            sapiente! Quae vel quam beatae et repellat exercitationem neque
+            maxime, praesentium consequatur enim mollitia tenetur id a autem
+            molestiae nesciunt nobis voluptate nisi sapiente rerum sed! Adipisci
+            perferendis totam quas delectus.
+          </p>
+          <a href="#" class="btn btn--green">Book now</a>
+        </div>
+      </div>
+    </div>
 
     <!--
         <section class="grid-test">
