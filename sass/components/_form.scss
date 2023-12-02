@@ -80,10 +80,7 @@
             width: 1.4rem;
             background-color: $primary-color;
             border-radius: 50%;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            translate: -50% -50%;
+            @include center-horizontal-vertical;
             opacity: 0;
             transition: opacity .2s;
         }
